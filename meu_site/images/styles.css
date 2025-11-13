@@ -1,0 +1,108 @@
+/* ======== TEMA: ECOS CAFÉ ======== */
+
+/* Fonte e estilo geral */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f6f1eb;
+    color: #3b2f2f;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #5c4033; /* marrom café */
+    color: #fff8e7; /* creme suave */
+    text-align: center;
+    padding: 60px 20px 40px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.header p {
+    font-size: 1.1em;
+    color: #f0e6da;
+}
+
+/* Conteúdo */
+.content {
+    max-width: 900px;
+    margin: 60px auto;
+    background-color: #fff8e7; /* tom creme */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    line-height: 1.8;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Centralizar botão */
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Botão moderno */
+.button {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #a67c52;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #8b5e3c;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #5c4033;
+    color: #fff8e7;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+/* ======== ESTILO PARA O CARDÁPIO ======== */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0 40px;
+}
+
+.menu-list li {
+    background-color: #f0e6da;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    font-size: 1.05em;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
